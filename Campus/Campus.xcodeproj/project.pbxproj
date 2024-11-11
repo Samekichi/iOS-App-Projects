@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201F49C02AD1C66100B59693 /* Manager+Geocoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F49BF2AD1C66100B59693 /* Manager+Geocoding.swift */; };
+		201F49C22AD1C6C000B59693 /* Manager+Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F49C12AD1C6C000B59693 /* Manager+Directions.swift */; };
+		201F49C42AD1D2C600B59693 /* DirectionRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F49C32AD1D2C600B59693 /* DirectionRequestView.swift */; };
+		2026CD3B2AC9FEF5002691DD /* CampusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026CD3A2AC9FEF5002691DD /* CampusApp.swift */; };
+		2026CD3D2AC9FEF5002691DD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026CD3C2AC9FEF5002691DD /* MainView.swift */; };
+		2026CD3F2AC9FEF6002691DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD3E2AC9FEF6002691DD /* Assets.xcassets */; };
+		2026CD422AC9FEF6002691DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD412AC9FEF6002691DD /* Preview Assets.xcassets */; };
+		2026CD4C2AC9FEF7002691DD /* CampusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026CD4B2AC9FEF7002691DD /* CampusTests.swift */; };
+		2026CD562AC9FEF7002691DD /* CampusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026CD552AC9FEF7002691DD /* CampusUITests.swift */; };
+		2026CD582AC9FEF7002691DD /* CampusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026CD572AC9FEF7002691DD /* CampusUITestsLaunchTests.swift */; };
+		2026CD862AC9FFDE002691DD /* appliedscience.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD662AC9FFDE002691DD /* appliedscience.jpg */; };
+		2026CD872AC9FFDE002691DD /* beaver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD672AC9FFDE002691DD /* beaver.jpg */; };
+		2026CD882AC9FFDE002691DD /* chandlee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD682AC9FFDE002691DD /* chandlee.jpg */; };
+		2026CD892AC9FFDE002691DD /* ageng.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD692AC9FFDE002691DD /* ageng.jpg */; };
+		2026CD8A2AC9FFDE002691DD /* armsby.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD6A2AC9FFDE002691DD /* armsby.jpg */; };
+		2026CD8B2AC9FFDE002691DD /* borland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD6B2AC9FFDE002691DD /* borland.jpg */; };
+		2026CD8C2AC9FFDE002691DD /* chapel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD6C2AC9FFDE002691DD /* chapel.jpg */; };
+		2026CD8D2AC9FFDE002691DD /* engunit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD6D2AC9FFDE002691DD /* engunit.jpg */; };
+		2026CD8E2AC9FFDE002691DD /* eeeast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD6E2AC9FFDE002691DD /* eeeast.jpg */; };
+		2026CD8F2AC9FFDE002691DD /* earthengineeringsciences.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD6F2AC9FFDE002691DD /* earthengineeringsciences.jpg */; };
+		2026CD902AC9FFDE002691DD /* biomechanics.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD702AC9FFDE002691DD /* biomechanics.jpg */; };
+		2026CD912AC9FFDE002691DD /* chambers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD712AC9FFDE002691DD /* chambers.jpg */; };
+		2026CD922AC9FFDE002691DD /* eisenhowerparking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD722AC9FFDE002691DD /* eisenhowerparking.jpg */; };
+		2026CD932AC9FFDE002691DD /* eewest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD732AC9FFDE002691DD /* eewest.jpg */; };
+		2026CD942AC9FFDE002691DD /* chemistry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD742AC9FFDE002691DD /* chemistry.jpg */; };
+		2026CD952AC9FFDE002691DD /* boucke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD752AC9FFDE002691DD /* boucke.jpg */; };
+		2026CD962AC9FFDE002691DD /* eisenhower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD762AC9FFDE002691DD /* eisenhower.jpg */; };
+		2026CD972AC9FFDE002691DD /* deike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD772AC9FFDE002691DD /* deike.jpg */; };
+		2026CD982AC9FFDE002691DD /* arts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD782AC9FFDE002691DD /* arts.jpg */; };
+		2026CD992AC9FFDE002691DD /* computer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD792AC9FFDE002691DD /* computer.jpg */; };
+		2026CD9A2AC9FFDE002691DD /* davey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD7A2AC9FFDE002691DD /* davey.jpg */; };
+		2026CD9B2AC9FFDE002691DD /* brycejordan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD7B2AC9FFDE002691DD /* brycejordan.jpg */; };
+		2026CD9C2AC9FFDE002691DD /* brumbaugh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD7C2AC9FFDE002691DD /* brumbaugh.jpg */; };
+		2026CD9D2AC9FFDE002691DD /* buckhout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD7D2AC9FFDE002691DD /* buckhout.jpg */; };
+		2026CD9E2AC9FFDE002691DD /* agadmin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD7E2AC9FFDE002691DD /* agadmin.jpg */; };
+		2026CD9F2AC9FFDE002691DD /* burrowes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD7F2AC9FFDE002691DD /* burrowes.jpg */; };
+		2026CDA02AC9FFDE002691DD /* atherton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD802AC9FFDE002691DD /* atherton.jpg */; };
+		2026CDA12AC9FFDE002691DD /* businessbuilding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD812AC9FFDE002691DD /* businessbuilding.jpg */; };
+		2026CDA22AC9FFDE002691DD /* carpenter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD822AC9FFDE002691DD /* carpenter.jpg */; };
+		2026CDA32AC9FFDE002691DD /* smeal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD832AC9FFDE002691DD /* smeal.jpg */; };
+		2026CDA42AC9FFDE002691DD /* carnegie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD842AC9FFDE002691DD /* carnegie.jpg */; };
+		2026CDA52AC9FFDE002691DD /* buildings.json in Resources */ = {isa = PBXBuildFile; fileRef = 2026CD852AC9FFDE002691DD /* buildings.json */; };
+		2026CDA92ACA0539002691DD /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026CDA82ACA0539002691DD /* Building.swift */; };
+		2026CDAB2ACA09CD002691DD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026CDAA2ACA09CD002691DD /* Persistence.swift */; };
+		2026CDAD2ACA0CC0002691DD /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026CDAC2ACA0CC0002691DD /* Manager.swift */; };
+		2026CDAF2ACA22DF002691DD /* MapTopControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026CDAE2ACA22DF002691DD /* MapTopControlView.swift */; };
+		2026CDB12ACA285C002691DD /* BuildingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026CDB02ACA285C002691DD /* BuildingDetailView.swift */; };
+		2026CDB32ACA44A2002691DD /* BuildingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026CDB22ACA44A2002691DD /* BuildingsListView.swift */; };
+		205C2B852AD1E26A00138684 /* MapKit+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C2B842AD1E26A00138684 /* MapKit+Constants.swift */; };
+		205C2B872AD1E2E500138684 /* ViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C2B862AD1E2E500138684 /* ViewConstants.swift */; };
+		205C2B892AD1E41600138684 /* DirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C2B882AD1E41600138684 /* DirectionView.swift */; };
+		205C2B8B2AD1EB7100138684 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205C2B8A2AD1EB7100138684 /* SelectionView.swift */; };
+		2064FA1E2AD1B33F00A64C22 /* Manager+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2064FA1D2AD1B33F00A64C22 /* Manager+Location.swift */; };
+		208B06F32ADD3F7A0036A668 /* MapCornerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208B06F22ADD3F7A0036A668 /* MapCornerControlView.swift */; };
+		209D09AB2ADCBDC7004F9BB0 /* MapViewUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209D09AA2ADCBDC7004F9BB0 /* MapViewUIKit.swift */; };
+		209D09AE2ADCC038004F9BB0 /* MapViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209D09AD2ADCC038004F9BB0 /* MapViewCoordinator.swift */; };
+		209D09B02ADCC561004F9BB0 /* BuildingAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209D09AF2ADCC561004F9BB0 /* BuildingAnnotation.swift */; };
+		209D09B22ADCD020004F9BB0 /* UserPickedLocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209D09B12ADCD020004F9BB0 /* UserPickedLocationAnnotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2026CD482AC9FEF7002691DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2026CD2F2AC9FEF5002691DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2026CD362AC9FEF5002691DD;
+			remoteInfo = Campus;
+		};
+		2026CD522AC9FEF7002691DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2026CD2F2AC9FEF5002691DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2026CD362AC9FEF5002691DD;
+			remoteInfo = Campus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		201F49BF2AD1C66100B59693 /* Manager+Geocoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manager+Geocoding.swift"; sourceTree = "<group>"; };
+		201F49C12AD1C6C000B59693 /* Manager+Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manager+Directions.swift"; sourceTree = "<group>"; };
+		201F49C32AD1D2C600B59693 /* DirectionRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionRequestView.swift; sourceTree = "<group>"; };
+		2026CD372AC9FEF5002691DD /* Campus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2026CD3A2AC9FEF5002691DD /* CampusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusApp.swift; sourceTree = "<group>"; };
+		2026CD3C2AC9FEF5002691DD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2026CD3E2AC9FEF6002691DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2026CD412AC9FEF6002691DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2026CD472AC9FEF7002691DD /* CampusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2026CD4B2AC9FEF7002691DD /* CampusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusTests.swift; sourceTree = "<group>"; };
+		2026CD512AC9FEF7002691DD /* CampusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2026CD552AC9FEF7002691DD /* CampusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusUITests.swift; sourceTree = "<group>"; };
+		2026CD572AC9FEF7002691DD /* CampusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2026CD662AC9FFDE002691DD /* appliedscience.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appliedscience.jpg; sourceTree = "<group>"; };
+		2026CD672AC9FFDE002691DD /* beaver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beaver.jpg; sourceTree = "<group>"; };
+		2026CD682AC9FFDE002691DD /* chandlee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chandlee.jpg; sourceTree = "<group>"; };
+		2026CD692AC9FFDE002691DD /* ageng.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ageng.jpg; sourceTree = "<group>"; };
+		2026CD6A2AC9FFDE002691DD /* armsby.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = armsby.jpg; sourceTree = "<group>"; };
+		2026CD6B2AC9FFDE002691DD /* borland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = borland.jpg; sourceTree = "<group>"; };
+		2026CD6C2AC9FFDE002691DD /* chapel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chapel.jpg; sourceTree = "<group>"; };
+		2026CD6D2AC9FFDE002691DD /* engunit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = engunit.jpg; sourceTree = "<group>"; };
+		2026CD6E2AC9FFDE002691DD /* eeeast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eeeast.jpg; sourceTree = "<group>"; };
+		2026CD6F2AC9FFDE002691DD /* earthengineeringsciences.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earthengineeringsciences.jpg; sourceTree = "<group>"; };
+		2026CD702AC9FFDE002691DD /* biomechanics.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = biomechanics.jpg; sourceTree = "<group>"; };
+		2026CD712AC9FFDE002691DD /* chambers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chambers.jpg; sourceTree = "<group>"; };
+		2026CD722AC9FFDE002691DD /* eisenhowerparking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eisenhowerparking.jpg; sourceTree = "<group>"; };
+		2026CD732AC9FFDE002691DD /* eewest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eewest.jpg; sourceTree = "<group>"; };
+		2026CD742AC9FFDE002691DD /* chemistry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chemistry.jpg; sourceTree = "<group>"; };
+		2026CD752AC9FFDE002691DD /* boucke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boucke.jpg; sourceTree = "<group>"; };
+		2026CD762AC9FFDE002691DD /* eisenhower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eisenhower.jpg; sourceTree = "<group>"; };
+		2026CD772AC9FFDE002691DD /* deike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deike.jpg; sourceTree = "<group>"; };
+		2026CD782AC9FFDE002691DD /* arts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arts.jpg; sourceTree = "<group>"; };
+		2026CD792AC9FFDE002691DD /* computer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = computer.jpg; sourceTree = "<group>"; };
+		2026CD7A2AC9FFDE002691DD /* davey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = davey.jpg; sourceTree = "<group>"; };
+		2026CD7B2AC9FFDE002691DD /* brycejordan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brycejordan.jpg; sourceTree = "<group>"; };
+		2026CD7C2AC9FFDE002691DD /* brumbaugh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brumbaugh.jpg; sourceTree = "<group>"; };
+		2026CD7D2AC9FFDE002691DD /* buckhout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buckhout.jpg; sourceTree = "<group>"; };
+		2026CD7E2AC9FFDE002691DD /* agadmin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = agadmin.jpg; sourceTree = "<group>"; };
+		2026CD7F2AC9FFDE002691DD /* burrowes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burrowes.jpg; sourceTree = "<group>"; };
+		2026CD802AC9FFDE002691DD /* atherton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = atherton.jpg; sourceTree = "<group>"; };
+		2026CD812AC9FFDE002691DD /* businessbuilding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = businessbuilding.jpg; sourceTree = "<group>"; };
+		2026CD822AC9FFDE002691DD /* carpenter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carpenter.jpg; sourceTree = "<group>"; };
+		2026CD832AC9FFDE002691DD /* smeal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smeal.jpg; sourceTree = "<group>"; };
+		2026CD842AC9FFDE002691DD /* carnegie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carnegie.jpg; sourceTree = "<group>"; };
+		2026CD852AC9FFDE002691DD /* buildings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buildings.json; sourceTree = "<group>"; };
+		2026CDA82ACA0539002691DD /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		2026CDAA2ACA09CD002691DD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2026CDAC2ACA0CC0002691DD /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		2026CDAE2ACA22DF002691DD /* MapTopControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTopControlView.swift; sourceTree = "<group>"; };
+		2026CDB02ACA285C002691DD /* BuildingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingDetailView.swift; sourceTree = "<group>"; };
+		2026CDB22ACA44A2002691DD /* BuildingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsListView.swift; sourceTree = "<group>"; };
+		205C2B842AD1E26A00138684 /* MapKit+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapKit+Constants.swift"; sourceTree = "<group>"; };
+		205C2B862AD1E2E500138684 /* ViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstants.swift; sourceTree = "<group>"; };
+		205C2B882AD1E41600138684 /* DirectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionView.swift; sourceTree = "<group>"; };
+		205C2B8A2AD1EB7100138684 /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		2064FA1D2AD1B33F00A64C22 /* Manager+Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Manager+Location.swift"; sourceTree = "<group>"; };
+		2064FA1F2AD1B75600A64C22 /* W209Westgate.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = W209Westgate.gpx; sourceTree = "<group>"; };
+		208B06F22ADD3F7A0036A668 /* MapCornerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCornerControlView.swift; sourceTree = "<group>"; };
+		209D09AA2ADCBDC7004F9BB0 /* MapViewUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewUIKit.swift; sourceTree = "<group>"; };
+		209D09AD2ADCC038004F9BB0 /* MapViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewCoordinator.swift; sourceTree = "<group>"; };
+		209D09AF2ADCC561004F9BB0 /* BuildingAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingAnnotation.swift; sourceTree = "<group>"; };
+		209D09B12ADCD020004F9BB0 /* UserPickedLocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPickedLocationAnnotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2026CD342AC9FEF5002691DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2026CD442AC9FEF7002691DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2026CD4E2AC9FEF7002691DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201F49C52AD1D2CE00B59693 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				2026CDB02ACA285C002691DD /* BuildingDetailView.swift */,
+				2026CDB22ACA44A2002691DD /* BuildingsListView.swift */,
+				201F49C32AD1D2C600B59693 /* DirectionRequestView.swift */,
+				205C2B8A2AD1EB7100138684 /* SelectionView.swift */,
+				205C2B882AD1E41600138684 /* DirectionView.swift */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
+		2026CD2E2AC9FEF5002691DD = {
+			isa = PBXGroup;
+			children = (
+				2026CD392AC9FEF5002691DD /* Campus */,
+				2026CD4A2AC9FEF7002691DD /* CampusTests */,
+				2026CD542AC9FEF7002691DD /* CampusUITests */,
+				2026CD382AC9FEF5002691DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2026CD382AC9FEF5002691DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2026CD372AC9FEF5002691DD /* Campus.app */,
+				2026CD472AC9FEF7002691DD /* CampusTests.xctest */,
+				2026CD512AC9FEF7002691DD /* CampusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2026CD392AC9FEF5002691DD /* Campus */ = {
+			isa = PBXGroup;
+			children = (
+				2026CD3A2AC9FEF5002691DD /* CampusApp.swift */,
+				2026CDA62AC9FFEE002691DD /* View */,
+				2026CDA72AC9FFF4002691DD /* View Model */,
+				2026CD642AC9FFD1002691DD /* Model */,
+				2026CD3E2AC9FEF6002691DD /* Assets.xcassets */,
+				2026CD402AC9FEF6002691DD /* Preview Content */,
+				2064FA1F2AD1B75600A64C22 /* W209Westgate.gpx */,
+			);
+			path = Campus;
+			sourceTree = "<group>";
+		};
+		2026CD402AC9FEF6002691DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2026CD412AC9FEF6002691DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2026CD4A2AC9FEF7002691DD /* CampusTests */ = {
+			isa = PBXGroup;
+			children = (
+				2026CD4B2AC9FEF7002691DD /* CampusTests.swift */,
+			);
+			path = CampusTests;
+			sourceTree = "<group>";
+		};
+		2026CD542AC9FEF7002691DD /* CampusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2026CD552AC9FEF7002691DD /* CampusUITests.swift */,
+				2026CD572AC9FEF7002691DD /* CampusUITestsLaunchTests.swift */,
+			);
+			path = CampusUITests;
+			sourceTree = "<group>";
+		};
+		2026CD642AC9FFD1002691DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2026CD652AC9FFDE002691DD /* buildings */,
+				2026CD852AC9FFDE002691DD /* buildings.json */,
+				2026CDA82ACA0539002691DD /* Building.swift */,
+				209D09AF2ADCC561004F9BB0 /* BuildingAnnotation.swift */,
+				209D09B12ADCD020004F9BB0 /* UserPickedLocationAnnotation.swift */,
+				2026CDAA2ACA09CD002691DD /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2026CD652AC9FFDE002691DD /* buildings */ = {
+			isa = PBXGroup;
+			children = (
+				2026CD662AC9FFDE002691DD /* appliedscience.jpg */,
+				2026CD672AC9FFDE002691DD /* beaver.jpg */,
+				2026CD682AC9FFDE002691DD /* chandlee.jpg */,
+				2026CD692AC9FFDE002691DD /* ageng.jpg */,
+				2026CD6A2AC9FFDE002691DD /* armsby.jpg */,
+				2026CD6B2AC9FFDE002691DD /* borland.jpg */,
+				2026CD6C2AC9FFDE002691DD /* chapel.jpg */,
+				2026CD6D2AC9FFDE002691DD /* engunit.jpg */,
+				2026CD6E2AC9FFDE002691DD /* eeeast.jpg */,
+				2026CD6F2AC9FFDE002691DD /* earthengineeringsciences.jpg */,
+				2026CD702AC9FFDE002691DD /* biomechanics.jpg */,
+				2026CD712AC9FFDE002691DD /* chambers.jpg */,
+				2026CD722AC9FFDE002691DD /* eisenhowerparking.jpg */,
+				2026CD732AC9FFDE002691DD /* eewest.jpg */,
+				2026CD742AC9FFDE002691DD /* chemistry.jpg */,
+				2026CD752AC9FFDE002691DD /* boucke.jpg */,
+				2026CD762AC9FFDE002691DD /* eisenhower.jpg */,
+				2026CD772AC9FFDE002691DD /* deike.jpg */,
+				2026CD782AC9FFDE002691DD /* arts.jpg */,
+				2026CD792AC9FFDE002691DD /* computer.jpg */,
+				2026CD7A2AC9FFDE002691DD /* davey.jpg */,
+				2026CD7B2AC9FFDE002691DD /* brycejordan.jpg */,
+				2026CD7C2AC9FFDE002691DD /* brumbaugh.jpg */,
+				2026CD7D2AC9FFDE002691DD /* buckhout.jpg */,
+				2026CD7E2AC9FFDE002691DD /* agadmin.jpg */,
+				2026CD7F2AC9FFDE002691DD /* burrowes.jpg */,
+				2026CD802AC9FFDE002691DD /* atherton.jpg */,
+				2026CD812AC9FFDE002691DD /* businessbuilding.jpg */,
+				2026CD822AC9FFDE002691DD /* carpenter.jpg */,
+				2026CD832AC9FFDE002691DD /* smeal.jpg */,
+				2026CD842AC9FFDE002691DD /* carnegie.jpg */,
+			);
+			path = buildings;
+			sourceTree = "<group>";
+		};
+		2026CDA62AC9FFEE002691DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				205C2B862AD1E2E500138684 /* ViewConstants.swift */,
+				2026CDAE2ACA22DF002691DD /* MapTopControlView.swift */,
+				2026CD3C2AC9FEF5002691DD /* MainView.swift */,
+				208B06F22ADD3F7A0036A668 /* MapCornerControlView.swift */,
+				209D09AC2ADCC01A004F9BB0 /* MapKit for UIKit */,
+				201F49C52AD1D2CE00B59693 /* Sheet */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2026CDA72AC9FFF4002691DD /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				2026CDAC2ACA0CC0002691DD /* Manager.swift */,
+				2064FA1D2AD1B33F00A64C22 /* Manager+Location.swift */,
+				201F49BF2AD1C66100B59693 /* Manager+Geocoding.swift */,
+				201F49C12AD1C6C000B59693 /* Manager+Directions.swift */,
+				205C2B842AD1E26A00138684 /* MapKit+Constants.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		209D09AC2ADCC01A004F9BB0 /* MapKit for UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				209D09AA2ADCBDC7004F9BB0 /* MapViewUIKit.swift */,
+				209D09AD2ADCC038004F9BB0 /* MapViewCoordinator.swift */,
+			);
+			path = "MapKit for UIKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2026CD362AC9FEF5002691DD /* Campus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2026CD5B2AC9FEF7002691DD /* Build configuration list for PBXNativeTarget "Campus" */;
+			buildPhases = (
+				2026CD332AC9FEF5002691DD /* Sources */,
+				2026CD342AC9FEF5002691DD /* Frameworks */,
+				2026CD352AC9FEF5002691DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Campus;
+			productName = Campus;
+			productReference = 2026CD372AC9FEF5002691DD /* Campus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2026CD462AC9FEF7002691DD /* CampusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2026CD5E2AC9FEF7002691DD /* Build configuration list for PBXNativeTarget "CampusTests" */;
+			buildPhases = (
+				2026CD432AC9FEF7002691DD /* Sources */,
+				2026CD442AC9FEF7002691DD /* Frameworks */,
+				2026CD452AC9FEF7002691DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2026CD492AC9FEF7002691DD /* PBXTargetDependency */,
+			);
+			name = CampusTests;
+			productName = CampusTests;
+			productReference = 2026CD472AC9FEF7002691DD /* CampusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2026CD502AC9FEF7002691DD /* CampusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2026CD612AC9FEF7002691DD /* Build configuration list for PBXNativeTarget "CampusUITests" */;
+			buildPhases = (
+				2026CD4D2AC9FEF7002691DD /* Sources */,
+				2026CD4E2AC9FEF7002691DD /* Frameworks */,
+				2026CD4F2AC9FEF7002691DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2026CD532AC9FEF7002691DD /* PBXTargetDependency */,
+			);
+			name = CampusUITests;
+			productName = CampusUITests;
+			productReference = 2026CD512AC9FEF7002691DD /* CampusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2026CD2F2AC9FEF5002691DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2026CD362AC9FEF5002691DD = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2026CD462AC9FEF7002691DD = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2026CD362AC9FEF5002691DD;
+					};
+					2026CD502AC9FEF7002691DD = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2026CD362AC9FEF5002691DD;
+					};
+				};
+			};
+			buildConfigurationList = 2026CD322AC9FEF5002691DD /* Build configuration list for PBXProject "Campus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2026CD2E2AC9FEF5002691DD;
+			productRefGroup = 2026CD382AC9FEF5002691DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2026CD362AC9FEF5002691DD /* Campus */,
+				2026CD462AC9FEF7002691DD /* CampusTests */,
+				2026CD502AC9FEF7002691DD /* CampusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2026CD352AC9FEF5002691DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2026CD992AC9FFDE002691DD /* computer.jpg in Resources */,
+				2026CD8E2AC9FFDE002691DD /* eeeast.jpg in Resources */,
+				2026CD9D2AC9FFDE002691DD /* buckhout.jpg in Resources */,
+				2026CD982AC9FFDE002691DD /* arts.jpg in Resources */,
+				2026CD962AC9FFDE002691DD /* eisenhower.jpg in Resources */,
+				2026CD902AC9FFDE002691DD /* biomechanics.jpg in Resources */,
+				2026CD9C2AC9FFDE002691DD /* brumbaugh.jpg in Resources */,
+				2026CDA52AC9FFDE002691DD /* buildings.json in Resources */,
+				2026CD422AC9FEF6002691DD /* Preview Assets.xcassets in Resources */,
+				2026CD882AC9FFDE002691DD /* chandlee.jpg in Resources */,
+				2026CD952AC9FFDE002691DD /* boucke.jpg in Resources */,
+				2026CDA32AC9FFDE002691DD /* smeal.jpg in Resources */,
+				2026CDA42AC9FFDE002691DD /* carnegie.jpg in Resources */,
+				2026CD8D2AC9FFDE002691DD /* engunit.jpg in Resources */,
+				2026CD892AC9FFDE002691DD /* ageng.jpg in Resources */,
+				2026CD932AC9FFDE002691DD /* eewest.jpg in Resources */,
+				2026CD9E2AC9FFDE002691DD /* agadmin.jpg in Resources */,
+				2026CD912AC9FFDE002691DD /* chambers.jpg in Resources */,
+				2026CD972AC9FFDE002691DD /* deike.jpg in Resources */,
+				2026CD8C2AC9FFDE002691DD /* chapel.jpg in Resources */,
+				2026CD9A2AC9FFDE002691DD /* davey.jpg in Resources */,
+				2026CD3F2AC9FEF6002691DD /* Assets.xcassets in Resources */,
+				2026CD8B2AC9FFDE002691DD /* borland.jpg in Resources */,
+				2026CD9B2AC9FFDE002691DD /* brycejordan.jpg in Resources */,
+				2026CD922AC9FFDE002691DD /* eisenhowerparking.jpg in Resources */,
+				2026CD8A2AC9FFDE002691DD /* armsby.jpg in Resources */,
+				2026CDA22AC9FFDE002691DD /* carpenter.jpg in Resources */,
+				2026CD872AC9FFDE002691DD /* beaver.jpg in Resources */,
+				2026CDA02AC9FFDE002691DD /* atherton.jpg in Resources */,
+				2026CD9F2AC9FFDE002691DD /* burrowes.jpg in Resources */,
+				2026CD942AC9FFDE002691DD /* chemistry.jpg in Resources */,
+				2026CDA12AC9FFDE002691DD /* businessbuilding.jpg in Resources */,
+				2026CD862AC9FFDE002691DD /* appliedscience.jpg in Resources */,
+				2026CD8F2AC9FFDE002691DD /* earthengineeringsciences.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2026CD452AC9FEF7002691DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2026CD4F2AC9FEF7002691DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2026CD332AC9FEF5002691DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205C2B892AD1E41600138684 /* DirectionView.swift in Sources */,
+				209D09B22ADCD020004F9BB0 /* UserPickedLocationAnnotation.swift in Sources */,
+				2026CD3D2AC9FEF5002691DD /* MainView.swift in Sources */,
+				2026CDAF2ACA22DF002691DD /* MapTopControlView.swift in Sources */,
+				205C2B872AD1E2E500138684 /* ViewConstants.swift in Sources */,
+				201F49C02AD1C66100B59693 /* Manager+Geocoding.swift in Sources */,
+				201F49C22AD1C6C000B59693 /* Manager+Directions.swift in Sources */,
+				2026CDB32ACA44A2002691DD /* BuildingsListView.swift in Sources */,
+				2026CDAB2ACA09CD002691DD /* Persistence.swift in Sources */,
+				208B06F32ADD3F7A0036A668 /* MapCornerControlView.swift in Sources */,
+				201F49C42AD1D2C600B59693 /* DirectionRequestView.swift in Sources */,
+				209D09AB2ADCBDC7004F9BB0 /* MapViewUIKit.swift in Sources */,
+				2026CDA92ACA0539002691DD /* Building.swift in Sources */,
+				209D09B02ADCC561004F9BB0 /* BuildingAnnotation.swift in Sources */,
+				2026CDB12ACA285C002691DD /* BuildingDetailView.swift in Sources */,
+				2026CD3B2AC9FEF5002691DD /* CampusApp.swift in Sources */,
+				209D09AE2ADCC038004F9BB0 /* MapViewCoordinator.swift in Sources */,
+				205C2B852AD1E26A00138684 /* MapKit+Constants.swift in Sources */,
+				2064FA1E2AD1B33F00A64C22 /* Manager+Location.swift in Sources */,
+				2026CDAD2ACA0CC0002691DD /* Manager.swift in Sources */,
+				205C2B8B2AD1EB7100138684 /* SelectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2026CD432AC9FEF7002691DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2026CD4C2AC9FEF7002691DD /* CampusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2026CD4D2AC9FEF7002691DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2026CD562AC9FEF7002691DD /* CampusUITests.swift in Sources */,
+				2026CD582AC9FEF7002691DD /* CampusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2026CD492AC9FEF7002691DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2026CD362AC9FEF5002691DD /* Campus */;
+			targetProxy = 2026CD482AC9FEF7002691DD /* PBXContainerItemProxy */;
+		};
+		2026CD532AC9FEF7002691DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2026CD362AC9FEF5002691DD /* Campus */;
+			targetProxy = 2026CD522AC9FEF7002691DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2026CD592AC9FEF7002691DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2026CD5A2AC9FEF7002691DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2026CD5C2AC9FEF7002691DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Campus/Preview Content\"";
+				DEVELOPMENT_TEAM = N5G9FVLCCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your permission to show your current location and guide routes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.xmw5144.Campus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2026CD5D2AC9FEF7002691DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Campus/Preview Content\"";
+				DEVELOPMENT_TEAM = N5G9FVLCCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your permission to show your current location and guide routes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.xmw5144.Campus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2026CD5F2AC9FEF7002691DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5G9FVLCCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.xmw5144.CampusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Campus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Campus";
+			};
+			name = Debug;
+		};
+		2026CD602AC9FEF7002691DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5G9FVLCCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.xmw5144.CampusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Campus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Campus";
+			};
+			name = Release;
+		};
+		2026CD622AC9FEF7002691DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5G9FVLCCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.xmw5144.CampusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Campus;
+			};
+			name = Debug;
+		};
+		2026CD632AC9FEF7002691DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5G9FVLCCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.xmw5144.CampusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Campus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2026CD322AC9FEF5002691DD /* Build configuration list for PBXProject "Campus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2026CD592AC9FEF7002691DD /* Debug */,
+				2026CD5A2AC9FEF7002691DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2026CD5B2AC9FEF7002691DD /* Build configuration list for PBXNativeTarget "Campus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2026CD5C2AC9FEF7002691DD /* Debug */,
+				2026CD5D2AC9FEF7002691DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2026CD5E2AC9FEF7002691DD /* Build configuration list for PBXNativeTarget "CampusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2026CD5F2AC9FEF7002691DD /* Debug */,
+				2026CD602AC9FEF7002691DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2026CD612AC9FEF7002691DD /* Build configuration list for PBXNativeTarget "CampusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2026CD622AC9FEF7002691DD /* Debug */,
+				2026CD632AC9FEF7002691DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2026CD2F2AC9FEF5002691DD /* Project object */;
+}

@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		208D44C92AA5138C005783FD /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208D44C82AA5138C005783FD /* GameModel.swift */; };
+		208D44D12AA52F99005783FD /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208D44D02AA52F99005783FD /* GameManager.swift */; };
+		209566EB2A9AE4E600846452 /* Spelling_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209566EA2A9AE4E600846452 /* Spelling_ChallengeApp.swift */; };
+		209566ED2A9AE4E600846452 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209566EC2A9AE4E600846452 /* RootView.swift */; };
+		209566EF2A9AE4E700846452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209566EE2A9AE4E700846452 /* Assets.xcassets */; };
+		209566F22A9AE4E700846452 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209566F12A9AE4E700846452 /* Preview Assets.xcassets */; };
+		209566FC2A9AE4E700846452 /* Spelling_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209566FB2A9AE4E700846452 /* Spelling_ChallengeTests.swift */; };
+		209567062A9AE4E700846452 /* Spelling_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209567052A9AE4E700846452 /* Spelling_ChallengeUITests.swift */; };
+		209567082A9AE4E700846452 /* Spelling_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209567072A9AE4E700846452 /* Spelling_ChallengeUITestsLaunchTests.swift */; };
+		209567152A9AFAC200846452 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209567142A9AFAC200846452 /* TitleView.swift */; };
+		209567172A9AFB6100846452 /* TopHalfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209567162A9AFB6100846452 /* TopHalfView.swift */; };
+		209567192A9AFB9800846452 /* FoundWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209567182A9AFB9800846452 /* FoundWordsView.swift */; };
+		2095671B2A9B06B200846452 /* PickedLettersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095671A2A9B06B200846452 /* PickedLettersView.swift */; };
+		2095671D2A9B06C900846452 /* CandidateLettersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095671C2A9B06C900846452 /* CandidateLettersView.swift */; };
+		2095671F2A9B07CE00846452 /* EditPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095671E2A9B07CE00846452 /* EditPanelView.swift */; };
+		209567212A9B07E100846452 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209567202A9B07E100846452 /* ScoreView.swift */; };
+		209567232A9B07F800846452 /* FunctionPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209567222A9B07F800846452 /* FunctionPanelView.swift */; };
+		20A399892AA67E5700768A56 /* ViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A399882AA67E5700768A56 /* ViewConstants.swift */; };
+		20AF41D42AADC5B4001E9859 /* AllWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF41D32AADC5B4001E9859 /* AllWords.swift */; };
+		20AF41D62AADEE73001E9859 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF41D52AADEE73001E9859 /* PreferencesView.swift */; };
+		20AF41D82AADEE80001E9859 /* HintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AF41D72AADEE80001E9859 /* HintsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		209566F82A9AE4E700846452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209566DF2A9AE4E600846452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209566E62A9AE4E600846452;
+			remoteInfo = "Spelling Challenge";
+		};
+		209567022A9AE4E700846452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209566DF2A9AE4E600846452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209566E62A9AE4E600846452;
+			remoteInfo = "Spelling Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		208D44C82AA5138C005783FD /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		208D44D02AA52F99005783FD /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		209566E72A9AE4E600846452 /* Spelling Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spelling Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		209566EA2A9AE4E600846452 /* Spelling_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spelling_ChallengeApp.swift; sourceTree = "<group>"; };
+		209566EC2A9AE4E600846452 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		209566EE2A9AE4E700846452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		209566F12A9AE4E700846452 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		209566F72A9AE4E700846452 /* Spelling ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spelling ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		209566FB2A9AE4E700846452 /* Spelling_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spelling_ChallengeTests.swift; sourceTree = "<group>"; };
+		209567012A9AE4E700846452 /* Spelling ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spelling ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		209567052A9AE4E700846452 /* Spelling_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spelling_ChallengeUITests.swift; sourceTree = "<group>"; };
+		209567072A9AE4E700846452 /* Spelling_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spelling_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		209567142A9AFAC200846452 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		209567162A9AFB6100846452 /* TopHalfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHalfView.swift; sourceTree = "<group>"; };
+		209567182A9AFB9800846452 /* FoundWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundWordsView.swift; sourceTree = "<group>"; };
+		2095671A2A9B06B200846452 /* PickedLettersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickedLettersView.swift; sourceTree = "<group>"; };
+		2095671C2A9B06C900846452 /* CandidateLettersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateLettersView.swift; sourceTree = "<group>"; };
+		2095671E2A9B07CE00846452 /* EditPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPanelView.swift; sourceTree = "<group>"; };
+		209567202A9B07E100846452 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		209567222A9B07F800846452 /* FunctionPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionPanelView.swift; sourceTree = "<group>"; };
+		20A399882AA67E5700768A56 /* ViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConstants.swift; sourceTree = "<group>"; };
+		20AF41D32AADC5B4001E9859 /* AllWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWords.swift; sourceTree = "<group>"; };
+		20AF41D52AADEE73001E9859 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		20AF41D72AADEE80001E9859 /* HintsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209566E42A9AE4E600846452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209566F42A9AE4E700846452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209566FE2A9AE4E700846452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208D44CD2AA51854005783FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20A399882AA67E5700768A56 /* ViewConstants.swift */,
+				209566EC2A9AE4E600846452 /* RootView.swift */,
+				209567142A9AFAC200846452 /* TitleView.swift */,
+				209567162A9AFB6100846452 /* TopHalfView.swift */,
+				209567182A9AFB9800846452 /* FoundWordsView.swift */,
+				2095671A2A9B06B200846452 /* PickedLettersView.swift */,
+				2095671C2A9B06C900846452 /* CandidateLettersView.swift */,
+				2095671E2A9B07CE00846452 /* EditPanelView.swift */,
+				209567202A9B07E100846452 /* ScoreView.swift */,
+				209567222A9B07F800846452 /* FunctionPanelView.swift */,
+				20B45D2D2AAEDD9000247B51 /* Sheet */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		208D44CE2AA51893005783FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				208D44C82AA5138C005783FD /* GameModel.swift */,
+				20AF41D32AADC5B4001E9859 /* AllWords.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		208D44CF2AA5189B005783FD /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				208D44D02AA52F99005783FD /* GameManager.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		209566DE2A9AE4E600846452 = {
+			isa = PBXGroup;
+			children = (
+				209566E92A9AE4E600846452 /* Spelling Challenge */,
+				209566FA2A9AE4E700846452 /* Spelling ChallengeTests */,
+				209567042A9AE4E700846452 /* Spelling ChallengeUITests */,
+				209566E82A9AE4E600846452 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		209566E82A9AE4E600846452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209566E72A9AE4E600846452 /* Spelling Challenge.app */,
+				209566F72A9AE4E700846452 /* Spelling ChallengeTests.xctest */,
+				209567012A9AE4E700846452 /* Spelling ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209566E92A9AE4E600846452 /* Spelling Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				209566EA2A9AE4E600846452 /* Spelling_ChallengeApp.swift */,
+				209566EE2A9AE4E700846452 /* Assets.xcassets */,
+				209566F02A9AE4E700846452 /* Preview Content */,
+				208D44CD2AA51854005783FD /* View */,
+				208D44CF2AA5189B005783FD /* View Model */,
+				208D44CE2AA51893005783FD /* Model */,
+			);
+			path = "Spelling Challenge";
+			sourceTree = "<group>";
+		};
+		209566F02A9AE4E700846452 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				209566F12A9AE4E700846452 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		209566FA2A9AE4E700846452 /* Spelling ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				209566FB2A9AE4E700846452 /* Spelling_ChallengeTests.swift */,
+			);
+			path = "Spelling ChallengeTests";
+			sourceTree = "<group>";
+		};
+		209567042A9AE4E700846452 /* Spelling ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				209567052A9AE4E700846452 /* Spelling_ChallengeUITests.swift */,
+				209567072A9AE4E700846452 /* Spelling_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "Spelling ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		20B45D2D2AAEDD9000247B51 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				20AF41D52AADEE73001E9859 /* PreferencesView.swift */,
+				20AF41D72AADEE80001E9859 /* HintsView.swift */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209566E62A9AE4E600846452 /* Spelling Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2095670B2A9AE4E700846452 /* Build configuration list for PBXNativeTarget "Spelling Challenge" */;
+			buildPhases = (
+				209566E32A9AE4E600846452 /* Sources */,
+				209566E42A9AE4E600846452 /* Frameworks */,
+				209566E52A9AE4E600846452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spelling Challenge";
+			productName = "Spelling Challenge";
+			productReference = 209566E72A9AE4E600846452 /* Spelling Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		209566F62A9AE4E700846452 /* Spelling ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2095670E2A9AE4E700846452 /* Build configuration list for PBXNativeTarget "Spelling ChallengeTests" */;
+			buildPhases = (
+				209566F32A9AE4E700846452 /* Sources */,
+				209566F42A9AE4E700846452 /* Frameworks */,
+				209566F52A9AE4E700846452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209566F92A9AE4E700846452 /* PBXTargetDependency */,
+			);
+			name = "Spelling ChallengeTests";
+			productName = "Spelling ChallengeTests";
+			productReference = 209566F72A9AE4E700846452 /* Spelling ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		209567002A9AE4E700846452 /* Spelling ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209567112A9AE4E700846452 /* Build configuration list for PBXNativeTarget "Spelling ChallengeUITests" */;
+			buildPhases = (
+				209566FD2A9AE4E700846452 /* Sources */,
+				209566FE2A9AE4E700846452 /* Frameworks */,
+				209566FF2A9AE4E700846452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209567032A9AE4E700846452 /* PBXTargetDependency */,
+			);
+			name = "Spelling ChallengeUITests";
+			productName = "Spelling ChallengeUITests";
+			productReference = 209567012A9AE4E700846452 /* Spelling ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209566DF2A9AE4E600846452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					209566E62A9AE4E600846452 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					209566F62A9AE4E700846452 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 209566E62A9AE4E600846452;
+					};
+					209567002A9AE4E700846452 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 209566E62A9AE4E600846452;
+					};
+				};
+			};
+			buildConfigurationList = 209566E22A9AE4E600846452 /* Build configuration list for PBXProject "Spelling Challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 209566DE2A9AE4E600846452;
+			productRefGroup = 209566E82A9AE4E600846452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209566E62A9AE4E600846452 /* Spelling Challenge */,
+				209566F62A9AE4E700846452 /* Spelling ChallengeTests */,
+				209567002A9AE4E700846452 /* Spelling ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209566E52A9AE4E600846452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209566F22A9AE4E700846452 /* Preview Assets.xcassets in Resources */,
+				209566EF2A9AE4E700846452 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209566F52A9AE4E700846452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209566FF2A9AE4E700846452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209566E32A9AE4E600846452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20AF41D62AADEE73001E9859 /* PreferencesView.swift in Sources */,
+				209566ED2A9AE4E600846452 /* RootView.swift in Sources */,
+				20A399892AA67E5700768A56 /* ViewConstants.swift in Sources */,
+				208D44C92AA5138C005783FD /* GameModel.swift in Sources */,
+				209567172A9AFB6100846452 /* TopHalfView.swift in Sources */,
+				209567212A9B07E100846452 /* ScoreView.swift in Sources */,
+				20AF41D82AADEE80001E9859 /* HintsView.swift in Sources */,
+				209567192A9AFB9800846452 /* FoundWordsView.swift in Sources */,
+				209566EB2A9AE4E600846452 /* Spelling_ChallengeApp.swift in Sources */,
+				209567232A9B07F800846452 /* FunctionPanelView.swift in Sources */,
+				2095671D2A9B06C900846452 /* CandidateLettersView.swift in Sources */,
+				2095671B2A9B06B200846452 /* PickedLettersView.swift in Sources */,
+				209567152A9AFAC200846452 /* TitleView.swift in Sources */,
+				20AF41D42AADC5B4001E9859 /* AllWords.swift in Sources */,
+				2095671F2A9B07CE00846452 /* EditPanelView.swift in Sources */,
+				208D44D12AA52F99005783FD /* GameManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209566F32A9AE4E700846452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209566FC2A9AE4E700846452 /* Spelling_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209566FD2A9AE4E700846452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209567082A9AE4E700846452 /* Spelling_ChallengeUITestsLaunchTests.swift in Sources */,
+				209567062A9AE4E700846452 /* Spelling_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209566F92A9AE4E700846452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209566E62A9AE4E600846452 /* Spelling Challenge */;
+			targetProxy = 209566F82A9AE4E700846452 /* PBXContainerItemProxy */;
+		};
+		209567032A9AE4E700846452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209566E62A9AE4E600846452 /* Spelling Challenge */;
+			targetProxy = 209567022A9AE4E700846452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		209567092A9AE4E700846452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2095670A2A9AE4E700846452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2095670C2A9AE4E700846452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spelling Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = N5G9FVLCCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.xmw5144.Spelling-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2095670D2A9AE4E700846452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spelling Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = N5G9FVLCCU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.xmw5144.Spelling-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2095670F2A9AE4E700846452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5G9FVLCCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.xmw5144.Spelling-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spelling Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spelling Challenge";
+			};
+			name = Debug;
+		};
+		209567102A9AE4E700846452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5G9FVLCCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.xmw5144.Spelling-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spelling Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spelling Challenge";
+			};
+			name = Release;
+		};
+		209567122A9AE4E700846452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5G9FVLCCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.xmw5144.Spelling-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spelling Challenge";
+			};
+			name = Debug;
+		};
+		209567132A9AE4E700846452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5G9FVLCCU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.psu.xmw5144.Spelling-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spelling Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209566E22A9AE4E600846452 /* Build configuration list for PBXProject "Spelling Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209567092A9AE4E700846452 /* Debug */,
+				2095670A2A9AE4E700846452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2095670B2A9AE4E700846452 /* Build configuration list for PBXNativeTarget "Spelling Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2095670C2A9AE4E700846452 /* Debug */,
+				2095670D2A9AE4E700846452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2095670E2A9AE4E700846452 /* Build configuration list for PBXNativeTarget "Spelling ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2095670F2A9AE4E700846452 /* Debug */,
+				209567102A9AE4E700846452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209567112A9AE4E700846452 /* Build configuration list for PBXNativeTarget "Spelling ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209567122A9AE4E700846452 /* Debug */,
+				209567132A9AE4E700846452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209566DF2A9AE4E600846452 /* Project object */;
+}
